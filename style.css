@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: fantasy;
     background-color: black;
     height: 100vh;
     display: flex;
@@ -9,13 +9,14 @@ body {
     font-size: 3rem;
 }
 
+
 .color-box {
     width: 50%;
     height: 50%;
     color: white;
     cursor: pointer;
     border-radius: 50%;
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,5 +24,18 @@ body {
 
 h1 {
     margin-bottom: 0;
-    color: white
+    color: white;
+    text-align: center;
+    
+}
+
+@media (max-width: 579px){
+    body{
+        font-size: 1.5rem;
+    }
+
+    .color-box{
+        width: 250px;
+        font-size: 1rem;
+    }
 }
