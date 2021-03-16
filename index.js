@@ -15,5 +15,3 @@ function randomColor() {
     document.querySelector(".color-box").style.background = color;
     document.querySelector(".hex").innerHTML = `<h1>${color}</h1>`
 }
-
-randomColor()
